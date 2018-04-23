@@ -3,7 +3,7 @@
 class Conta
 {
 	public $titular;
-	public $saldo:
+	public $saldo;
 
 	public function __construct(string $titular, int $saldoInicial)
 	{
@@ -12,5 +12,6 @@ class Conta
 	}
 }
 
+echo '<pre>';
 $conta = new Conta('Adriano',100);
 var_dump($conta);
